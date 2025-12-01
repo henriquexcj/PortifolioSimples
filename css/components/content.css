@@ -1,0 +1,19 @@
+.conteudo {
+    flex: 1;
+    line-height: 1.5em;
+}
+
+.conteudo > h2 {
+    margin-bottom: 20px;
+    color: var(--tertiary-color);
+}
+
+.conteudo > p {
+    text-align: justify;
+}
+
+.conteudo > ul {
+    list-style-position: inside;
+    list-style-type: circle;
+    
+}

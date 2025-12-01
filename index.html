@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/nav.css">
     <link rel="stylesheet" href="css/components/nav-buttons.css">
+    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/article.css">
+    <link rel="stylesheet" href="css/components/content.css">
 </head>
 <body>
     <header>
@@ -22,34 +25,40 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Sobre Mim</h1>
-            <article>
-                <h2>Quem sou?</h2>
-                <p>resumo sobre eu</p>
-                <img src="" alt="">
+        <section class="apresentacao">
+            <h1>SOBRE MIM</h1>
+            <hr>
+            <article class="box-sobre-mim">
+                <div class="conteudo">
+                    <h2>Quem sou?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, voluptas. Voluptatum culpa animi quas reiciendis et, doloribus recusandae nam commodi illo in facilis aut asperiores tenetur modi odio perspiciatis nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque architecto sed nemo omnis sint unde obcaecati! Incidunt asperiores, sunt impedit praesentium consectetur vero quae optio tempora minima numquam aliquid modi!</p>
+                </div>
+                <img src="img/Eu.png" alt="Imagem do rosto de Henrique Xavier de Calais Jesus">
             </article>
             <article>
-                <h2>skills</h2>
-                <ul>
-                    <li>skill 1</li>
-                    <li>skill 2</li>
-                    <li>skill 3</li>
-                </ul>
-            </article>
-            <article>
-                <h2>conhecimentos</h2>
-                <ul>
-                    <li>html</li>
-                    <li>css</li>
-                    <li>js</li>
-                    <li>c#</li>
-                </ul>
-            </article>
-            
+                <div class="conteudo">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li>Pensamento Analítico</li>
+                        <li>Comunicação</li>
+                        <li>Comprometimento</li>
+                        <li>Trabalho em Equipe</li>
+                    </ul>
+                </div>
+                <div class="conteudo">
+                    <h2>Conhecimentos</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>CSharp</li>
+                    </ul>
+                </div>
+            </article>            
         </section>
         <section>
-            <h1>Meus Projetos</h1>
+            <h1>MEUS PROJETOS</h1>
+            <hr>
             <div class="projeto"> <!--Clicavel e direciona para o link do diretorio-->
                 <h2>nome</h2>
                 <iframe src="" frameborder="0">*exibição do projeto</iframe>
@@ -57,12 +66,13 @@
             </div>
         </section>
         <section>
-            <h1>Contato</h1>
+            <h1>CONTATO</h1>
+            <hr>
         </section>
     </main>
     <footer>
         <p>frase de efeito legal</p>
-        <p>eu que fiz tudo</p>
+        <p>Feito por mim, Henrique Jesus</p>
     </footer>
 </body>
 </html>

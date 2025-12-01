@@ -1,0 +1,17 @@
+article {
+    margin-top: 40px;
+    display: flex;
+}
+
+article > h2 {
+    margin-bottom: 20px;
+    color: var(--tertiary-color);
+}
+
+article > img {
+    height: 300px;
+    margin: 0 50px;
+    border-radius: 5px;
+    
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+}

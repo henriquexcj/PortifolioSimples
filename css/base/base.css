@@ -13,8 +13,6 @@
     }
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -28,5 +26,5 @@ html, body {
 }
 
 main {
-    margin-top: 80px;
+    margin-top: 60px;
 }

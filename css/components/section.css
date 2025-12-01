@@ -1,0 +1,21 @@
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+section > h1 {
+    color: var(--secondary-color);
+    font-size: 1.8em;
+}
+
+section > hr {
+    height: 4px;
+    outline: none;
+    border: none;
+    background-color: var(--secondary-color)
+}
+
+.apresentacao {
+    
+}
