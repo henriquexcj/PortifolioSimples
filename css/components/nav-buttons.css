@@ -1,0 +1,25 @@
+.nav-buttons > .button {
+    height: 24px;
+}
+
+.nav-buttons > .button > a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav-buttons > .button > hr {
+    height: 0;
+    margin: auto;
+    height: 2px;
+    background-color: var(--text-color);
+    border: none;
+    outline: none;
+    
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 1s ease .5s;
+}
+
+.nav-buttons > .button:hover > hr {
+    transform: scaleX(1);
+}

@@ -1,0 +1,14 @@
+header > nav {
+    flex: 1;
+}
+
+nav > .nav-buttons {
+    list-style-type: none;
+    list-style-position: inside;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: auto;
+    width: 400px;
+}

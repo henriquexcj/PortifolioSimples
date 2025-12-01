@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
 :root{
-    --primary-color: white;
-    --secondary-color: ;
-    --tertiary-color: ;
-    --text-color: black;
+    --primary-color: #C674DB;
+    --secondary-color: #A373DB;
+    --tertiary-color: #7487DB;
+    --text-color: white;
+    .dark-mode {
+        --primaryColor: black;
+        --secondaryColor: ;
+        --tertiaryColor: ;
+        --textColor: white;
+    }
 }
 
-.dark-mode {
-    --primaryColor: black;
-    --secondaryColor: ;
-    --tertiaryColor: ;
-    --textColor: white;
-}
+
 
 * {
     margin: 0;
@@ -22,8 +23,8 @@
 }
 
 html, body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 main {
