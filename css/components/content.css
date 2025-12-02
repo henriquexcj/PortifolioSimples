@@ -17,3 +17,8 @@
     list-style-type: circle;
     
 }
+
+.conteudo > ul > li::marker {
+    font-size: 1.4em;
+    color: var(--tertiary-color);
+}
