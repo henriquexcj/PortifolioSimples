@@ -2,12 +2,10 @@
     margin-top: 50px;
 
     display: grid;
-    gap: 50px 50px;
+    gap: 40px 40px;
     place-content: center center;
     align-items: center;
-    grid-template-columns: 250px 250px 250px;
-    grid-template-rows: auto;
-    grid-auto-rows: 250px;
-    grid-auto-columns: 250px;
+    grid-template-columns: repeat(3, 280px);
+    grid-auto-rows: 300px;
     grid-auto-flow: row;
 }

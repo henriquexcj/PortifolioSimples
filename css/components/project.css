@@ -1,12 +1,26 @@
 .projeto {
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
     background-color: var(--tertiary-color);
     border-radius: 15px;
     margin: auto;
 }
+    .projeto:hover {
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.6);
+        transform: translate(-0px, -1px) scale(1.02);
+        cursor: pointer;
+    }
+    .projeto:active {
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2) inside;
+    }
 
-.projeto:hover {
-    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.6);
-    transform: translate(-0px, -1px) scale(1.02);
+.projeto > h2 {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.projeto > p {
+    padding: 8px 15px;
+    text-align: justify;
 }
