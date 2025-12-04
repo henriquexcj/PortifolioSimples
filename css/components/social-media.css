@@ -1,2 +1,26 @@
+.redes-sociais {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.redes-sociais > .rede {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+}
+    .redes-sociais > .rede:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
 
+.redes-sociais > .rede > img {
+    width: 30px;
+}
+
+.redes-sociais > .rede > a {
+    text-decoration: none;
+    color: var(--texte-color);
+    margin-left: 10px;
+}
