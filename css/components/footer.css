@@ -1,0 +1,21 @@
+footer {
+    height: 80px;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p {
+    padding: 5px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: block;
+}
+    footer > a:hover {
+        text-decoration: underline;
+    }
