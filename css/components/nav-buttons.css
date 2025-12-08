@@ -23,3 +23,9 @@
 .nav-buttons > .button:hover > hr {
     transform: scaleX(1);
 }
+
+@media screen and (min-width: 1000px) {
+    .nav-buttons {
+        max-width: 600px;
+    }
+}

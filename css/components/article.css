@@ -4,12 +4,6 @@ article {
     flex-flow: column;
 }
 
-article > h2 {
-    margin-bottom: 20px;
-    color: var(--tertiary-color);
-    font-size: 1em;
-}
-
 article > img {
     height: 300px;
     margin: 20px auto;

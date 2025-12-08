@@ -27,3 +27,11 @@ footer > a {
         font-size: 0.9em;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    footer {
+        font-size: 1em;
+    }
+}
+
+ 

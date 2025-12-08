@@ -25,3 +25,17 @@
     font-size: 1.4em;
     color: var(--tertiary-color);
 }
+
+@media screen and (min-width: 1000px) {
+    .conteudo {
+        line-height: 1.7em;
+    }
+    
+    .conteudo > h2 {
+        font-size: 1.6em;
+    }
+
+    .conteudo > p, .conteudo > ul {
+        font-size: 1.1em;
+    }
+}
