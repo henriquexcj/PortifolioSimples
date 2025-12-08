@@ -1,17 +1,37 @@
 article {
     margin-top: 40px;
     display: flex;
+    flex-flow: column;
 }
 
 article > h2 {
     margin-bottom: 20px;
     color: var(--tertiary-color);
+    font-size: 1em;
 }
 
 article > img {
     height: 300px;
-    margin: 0 50px;
+    margin: 20px auto;
     border-radius: 5px;
     
     box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 500px) {
+    #skills {
+        flex-flow: row;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    article {
+        flex-flow: row;
+    }
+
+    article > img {
+        margin: 0 0 0 30px;
+    }
+
+    
 }

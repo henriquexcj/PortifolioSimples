@@ -6,13 +6,13 @@ section {
 
 section > h1 {
     color: var(--secondary-color);
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 section > h2 {
     text-align: center;
     color: var(--secondary-color);
-    font-size: 1.6em;
+    font-size: 1.3em;
 }
 
 section > hr {
@@ -20,8 +20,4 @@ section > hr {
     outline: none;
     border: none;
     background-color: var(--secondary-color)
-}
-
-.apresentacao {
-    
 }

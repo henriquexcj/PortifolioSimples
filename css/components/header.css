@@ -11,12 +11,19 @@ header {
     align-items: center;
     
     background-color: var(--primary-color);
+    
+    font-size: 1em;
 }
 
 header > h3 {
     color: var(--text-color);
     height: 28px;
+    display: none;
+    margin-left: 10px;
 }
 
-
-
+@media screen and (min-width: 1000px) {
+    header > h3 {
+        display: block;
+    }
+}

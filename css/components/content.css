@@ -6,16 +6,19 @@
 .conteudo > h2 {
     margin-bottom: 20px;
     color: var(--tertiary-color);
+    font-size: 1.2em;
 }
 
 .conteudo > p {
     text-align: justify;
+    font-size: 0.9em;
 }
 
 .conteudo > ul {
     list-style-position: inside;
     list-style-type: circle;
-    
+    margin-bottom: 30px;
+    font-size: 0.9em;
 }
 
 .conteudo > ul > li::marker {
