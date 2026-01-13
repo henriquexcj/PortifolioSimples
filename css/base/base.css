@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
 :root{
-    --primary-color: #C674DB;
-    --secondary-color: #A373DB;
-    --tertiary-color: #7487DB;
+    --primary-color: black;
+    --secondary-color: rgb(103, 138, 255);
+    --tertiary-color: rgb(111, 123, 190);
     --text-color: white;
-    .dark-mode {
-        --primaryColor: black;
+    --bg-color: rgb(61, 61, 61);
+    --projects-color: rgb(80, 80, 80);
+
+    .light-mode {
+        --primaryColor: white;
         --secondaryColor: ;
         --tertiaryColor: ;
-        --textColor: white;
+        --textColor: black;
     }
 }
 
@@ -27,4 +30,5 @@ html, body {
 
 main {
     margin-top: 60px;
+    background-color: var(--bg-color);
 }

@@ -1,8 +1,9 @@
 .projeto {
     height: 100%;
     width: 100%;
-    background-color: var(--tertiary-color);
+    background-color: var(--projects-color);
     border-radius: 15px;
+    border: 2px solid var(--tertiary-color);
     margin: auto;
 }
     .projeto:hover {
@@ -18,9 +19,11 @@
     text-align: center;
     padding: 5px;
     font-size: 1.2em;
+    color: var(--text-color);
 }
 
 .projeto > p {
     padding: 8px 15px;
     text-align: justify;
+    color: var(--text-color);
 }

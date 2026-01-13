@@ -25,7 +25,7 @@
 
 .redes-sociais > .rede > a {
     text-decoration: none;
-    color: var(--texte-color);
+    color: var(--text-color);
     margin-left: 10px;
 }
 
